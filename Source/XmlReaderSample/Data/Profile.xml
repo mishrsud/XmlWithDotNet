@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<profile personName="Sudhanshu Mishra">
+	<summary>
+		Sudhanshu is a pragmatic, passionate and result oriented developer par excellence.
+	</summary>
+	<education>
+		<school name="Visveswaraiah Technological University" certificateType="Degree" ordinal="0">
+			<headline>Bachelor Of Engineering</headline>
+			<description>Major in Telecommunications</description>
+			<start month="7" year="1999" />
+			<end month="5" year="2003" />
+		</school>
+		<school name="St. Xavier's" certificateType="HighSchool" ordinal="0">
+			<headline>High School</headline>
+			<description>Physics, Chemistry, Matchs and English</description>
+			<start month="4" year="1996" />
+			<end month="4" year="1997" />
+		</school>
+	</education>
+	<employmentHistory>
+		<position title="Senior Developer" employer="Saxo Bank A/S" tenure="2011 - 2015" isCurrent="true">
+			<role>Senior Developer, Lead</role>
+			<responsibilities>Leading the Open API team in India</responsibilities>
+			<achivements>Super cool</achivements>
+			<technologies>
+			<![CDATA[
+			.NET, C#, ASP.NET MVC, Web API, MSSQL 2014
+			]]></technologies>
+		</position>
+		<position title="Senior Software Engineer" employer="Misys PLC" tenure="2008 - 2011" isCurrent="false">
+			<role>Senior Developer, Lead</role>
+			<responsibilities>Leading the IFM team in India</responsibilities>
+			<achivements>Super cool</achivements>
+			<technologies>
+				<![CDATA[
+			.NET, C#, ASP.NET MVC, MSSQL 2005
+			]]>
+			</technologies>
+		</position>
+	</employmentHistory>
+</profile>

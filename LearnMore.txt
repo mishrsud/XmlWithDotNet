@@ -1,0 +1,13 @@
+Mark Gravel's Answer'
+http://stackoverflow.com/a/284331/190476
+
+GIST:
+Best way to write XML: XmlReader
+
+Reading:
+When small(er) document	: XmlDocument - supports XPath expressions
+When larger document	: XmlReader
+
+LINQ To XML Approach
+1. In-Memory XML Tree Modification vs. Functional Construction 
+   MSDN: https://msdn.microsoft.com/en-us/library/bb387024(v=vs.120).aspx

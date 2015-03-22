@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2C580822-8A5C-4EEC-B7E0-E9A4043BCC91}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Source\Common\Common.csproj", "{C67BF134-2DBC-47AA-962C-47B425CDDD94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlReaderSample", "Source\XmlReaderSample\XmlReaderSample.csproj", "{08B03116-BB03-4E08-858F-F20A640239D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlReaderSample.Test", "Source\XmlReaderSample.Test\XmlReaderSample.Test.csproj", "{C5A8EFAA-7D49-468B-9023-405DF95C079F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlWriterSample", "Source\XmlWriterSample\XmlWriterSample.csproj", "{DCEB12F8-A81A-4FE5-8A3B-4BD96721B5F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlWriterSample.Test", "Source\XmlWriterSample.Test\XmlWriterSample.Test.csproj", "{9BE2E3EA-9196-4C9B-9ABD-E82E7D6E11A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDocumentSample", "Source\XmlDocumentSample\XmlDocumentSample.csproj", "{59AF975C-2494-4C43-808F-D97BC954E7C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDocumentSample.Test", "Source\XmlDocumentSample.Test\XmlDocumentSample.Test.csproj", "{1D26D78F-34BD-4B59-B372-06C662FB5478}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{FC9CF5C3-2AF7-4B53-AA5A-E56299B2F5F3}"
+	ProjectSection(SolutionItems) = preProject
+		LearnMore.txt = LearnMore.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXmlSample", "Source\LinqToXmlSample\LinqToXmlSample.csproj", "{8B138F26-1894-4E8E-A56A-72CAC340F901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXmlSample.Test", "Source\LinqToXmlSample.Test\LinqToXmlSample.Test.csproj", "{22D39D34-44F9-4C8C-82B0-1D4823CA99BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C67BF134-2DBC-47AA-962C-47B425CDDD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67BF134-2DBC-47AA-962C-47B425CDDD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67BF134-2DBC-47AA-962C-47B425CDDD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67BF134-2DBC-47AA-962C-47B425CDDD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B03116-BB03-4E08-858F-F20A640239D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B03116-BB03-4E08-858F-F20A640239D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B03116-BB03-4E08-858F-F20A640239D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B03116-BB03-4E08-858F-F20A640239D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A8EFAA-7D49-468B-9023-405DF95C079F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A8EFAA-7D49-468B-9023-405DF95C079F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A8EFAA-7D49-468B-9023-405DF95C079F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A8EFAA-7D49-468B-9023-405DF95C079F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEB12F8-A81A-4FE5-8A3B-4BD96721B5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEB12F8-A81A-4FE5-8A3B-4BD96721B5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEB12F8-A81A-4FE5-8A3B-4BD96721B5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEB12F8-A81A-4FE5-8A3B-4BD96721B5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE2E3EA-9196-4C9B-9ABD-E82E7D6E11A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE2E3EA-9196-4C9B-9ABD-E82E7D6E11A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE2E3EA-9196-4C9B-9ABD-E82E7D6E11A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE2E3EA-9196-4C9B-9ABD-E82E7D6E11A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AF975C-2494-4C43-808F-D97BC954E7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AF975C-2494-4C43-808F-D97BC954E7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AF975C-2494-4C43-808F-D97BC954E7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AF975C-2494-4C43-808F-D97BC954E7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D26D78F-34BD-4B59-B372-06C662FB5478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D26D78F-34BD-4B59-B372-06C662FB5478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D26D78F-34BD-4B59-B372-06C662FB5478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D26D78F-34BD-4B59-B372-06C662FB5478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B138F26-1894-4E8E-A56A-72CAC340F901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B138F26-1894-4E8E-A56A-72CAC340F901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B138F26-1894-4E8E-A56A-72CAC340F901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B138F26-1894-4E8E-A56A-72CAC340F901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D39D34-44F9-4C8C-82B0-1D4823CA99BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D39D34-44F9-4C8C-82B0-1D4823CA99BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D39D34-44F9-4C8C-82B0-1D4823CA99BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D39D34-44F9-4C8C-82B0-1D4823CA99BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
